@@ -5,7 +5,7 @@
       <h1 class="title">
         nuxt-edge-extract-css
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle global">
         For extractCSS validation
       </h2>
       <div class="links">

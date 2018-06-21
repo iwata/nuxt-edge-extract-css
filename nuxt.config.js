@@ -18,7 +18,7 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   css: [
-    '~/assets/global.scss'
+    '~/assets/style/preview.scss'
   ],
   /*
   ** Build configuration
@@ -38,5 +38,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: [
+    'nuxt-buefy'
+  ]
 }

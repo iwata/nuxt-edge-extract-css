@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+  margin: 50px 30px;
+}
+h2 {
+  margin: 60px 0 30px 0 !important;
+}
+h3 {
+  margin: 20px 0;
+}
+
+a {
+  color: #1c6dbf;
+}
+a:hover {
+  opacity: 0.6;
+}
+
+small {
+  color: #fff;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+}
+
+ul li, ol li, p {
+  line-height: 1.8em;
+}
+
+ul li, ol li {
+  text-decoration: none;
+}
+
+
+/* header and footer */
+.header-menu,
+.footer-menu {
+  float: right;
+  margin: 0 !important;
+}
+.header-menu li {
+  display: inline-block;
+  margin: 0 !important;
+}
+
+.header-menu li:first-child,
+.footer-menu li:first-child {
+  margin-right: 20px !important;
+}
+
+.navbar-item,
+.navbar-item-footer {
+  display: block;
+  overflow: hidden;
+  padding: 20px 30px;
+  box-shadow: 0 1px 6px #ccc;
+}
+.navbar-item-footer {
+  box-shadow: none;
+  margin-bottom: 50px;
+}
+a.navbar-item:hover,
+a.navbar-link:hover {
+  background-color: none;
+}
+
+.sms-logo,
+.sms-footer-logo {
+  width: 110px;
+  float: left;
+}
+
+.header-container ul {
+  list-style: none;
+  display: inline;
+  text-align: right;
+}
+.footer-menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 !important;
+}
+.footer-menu li a {
+  color: #fff;
+}
+.footer-container {
+  margin-top: 100px;
+  background-color: black;
+  width: 100%;
+}
+/* header and footer */

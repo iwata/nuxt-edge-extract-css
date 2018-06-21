@@ -1,0 +1,22 @@
+@media screen and (max-width: 940px) {
+  .policy {
+      width: 90%;
+      margin: 0 auto;
+  }
+}
+
+.policy {
+  max-width: 940px;
+  margin: 0 auto;
+
+  .upper li {
+    list-style-type: upper-latin;
+    content: none !important;
+    counter-increment: none !important;
+  }
+  .border-left {
+    margin-top: 30px;
+    padding: 0 20px;
+    border-left: medium solid #245a87;
+  }
+}

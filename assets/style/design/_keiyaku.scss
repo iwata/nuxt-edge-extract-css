@@ -1,0 +1,34 @@
+@media screen and (max-width: 940px) {
+  .keiyaku {
+      width: 90%;
+      margin: 0 auto;
+  }
+}
+
+.keiyaku {
+  max-width: 940px;
+  margin: 0 auto;
+
+  ol {
+    margin-left: 3em;
+
+    li {
+      counter-increment: cnt;
+    }
+    li:before {
+      content: "(" counter(cnt) ") ";
+      display:inline-block;
+      margin-left:-3em;
+      width: 3em;
+    }
+  }
+
+  .katakana {
+    li, li::before {
+      list-style-type: katakana;
+      content: none !important;
+      counter-increment: none !important;
+    }
+  }
+}
+
